@@ -1,6 +1,9 @@
 package code;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Client {
 
@@ -22,14 +25,25 @@ public class Client {
 		System.out.println(p6);
 		System.out.println(p7);
 
-		List<Person> p = null;
-		p.add(p1);
-		p.add(p2);
-		p.add(p3);
-		p.add(p4);
-		p.add(p5);
-		p.add(p6);
-		p.add(p7);
+		
+		System.out.println();
+		System.out.println();
+
+		
+		List<Person> list = new ArrayList<>();
+		list.add(p1);
+		list.add(p2);
+		list.add(p3);
+		list.add(p4);
+		list.add(p5);
+		list.add(p6);
+		list.add(p7);
+		
+		list 
+			.stream()
+			.filter(s -> s.getFirstName().length() < 6)
+			.forEach(System.out::println);
+				
 
 	}
 }

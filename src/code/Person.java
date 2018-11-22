@@ -51,7 +51,7 @@ public class Person {
 	}
 
 	public String toString() {
-		return firstName + " " + lastName + " | " + sex + " | " + identificationNumber;
+		return firstName + " " + lastName + "\t\t | " + sex + "\t\t | " + identificationNumber;
 	}
 
 }
