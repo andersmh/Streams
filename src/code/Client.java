@@ -17,6 +17,9 @@ public class Client {
 		Person p6 = new Person("Kjersti", "Berg", "Female", 394532344);
 		Person p7 = new Person("Julie", "Juletre", "Female", 894563341);
 
+		System.out.println("Orginal data:");
+		System.out.println();
+
 		System.out.println(p1);
 		System.out.println(p2);
 		System.out.println(p3);
@@ -24,12 +27,12 @@ public class Client {
 		System.out.println(p5);
 		System.out.println(p6);
 		System.out.println(p7);
-
 		
 		System.out.println();
+		System.out.println("Ny data");
 		System.out.println();
 
-		
+
 		List<Person> list = new ArrayList<>();
 		list.add(p1);
 		list.add(p2);
