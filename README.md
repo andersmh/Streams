@@ -1,2 +1,2 @@
 # Streams
-An overview of streams and how it works
+A little overview of streams
